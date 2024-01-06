@@ -1,0 +1,256 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 30%;
+}
+
+.menu{
+    display: flex;
+    padding-top: 7pt;
+    padding-bottom: 40pt;
+    align-items: center;
+    align-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.header_link1{
+    display: flex;
+    margin-top: 5pt;
+    margin-left: 30%;
+}
+
+.header_link2{
+    display: flex;
+    margin-top: 5pt;
+    margin-left: 15pt;
+}
+
+.header_link3{
+    display: flex;
+    margin-top: 5pt;
+    margin-left: 15pt;
+}
+
+/* This is section 1 */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    flex: 1;
+    margin-left: 20%;
+    max-width: 29.5%;
+    margin-top: 40px;
+}
+
+
+.main_text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;    
+}
+
+.secondary_text{
+    margin-top: 1%;
+    font-size: 18px;
+    color: #E5E7EB;   
+}
+
+.signup_btn{
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    position: relative;
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+}
+
+.main_pic{
+    width: 280pt;
+    height: 220pt;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 59.5%;
+}
+
+/* This is Section 2 */
+.sec_2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    color: #1F2937;
+}
+
+.info1{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.info2{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.info3{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.info4{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.info_class{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 6%;
+    flex: 1;
+    padding: 5pt;
+}
+
+.info1txt1{
+    width: 110pt;
+}
+
+.info1txt2{
+    width: 110pt;
+}
+
+.info1txt3{
+    width: 110pt;
+}
+
+.info1txt4{
+    width: 110pt;
+}
+
+.s_2{
+    padding-bottom: 60pt;
+}
+
+.sec_3{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.quote{
+    width: 50%;
+}
+
+.author_name{
+    margin-left: 34%;
+    font-weight: bold;
+    font-family: default;
+    font-style: normal;
+    font-size: medium;
+}
+
+.contact_now{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #3882F6;
+    width: 60%;
+    border-radius: 15px;
+    color: #F9FAF8;
+    padding: 3%;
+    justify-content: center;
+}
+
+.contact_details{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.contact_main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.contact_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.last_btn{
+    background-color: #3882F6;
+    width: 110pt;
+    color: white;
+    font-size: 16px;
+    border: white solid;
+    border-radius: 7px;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 40pt;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
